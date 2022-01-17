@@ -1,0 +1,147 @@
+html{
+    background-color: #f5f5f5;
+    font-family: Roboto;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Roboto;
+
+}
+ul{
+    list-style-type: none;
+}
+header{
+    height: 90px ;
+    background-color: white;
+}
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 4%;
+    color: rgb(82, 81, 81);
+    border-radius: 7px;
+    padding-bottom: 30px;
+}
+.spazio1{
+    padding-left: 43px;
+    padding-top: 15px ;
+}
+hr{
+    border-color: #f5f5f5;
+    color: #f5f5f5;
+    background-color: #f5f5f5;
+    border: none;
+    height: 1px;
+}
+.spunta, .x{
+    height: 10px;
+    width: 10px;
+    color:green;
+    padding:1px 3px ;  
+    border-style: solid;
+    border-color: green;
+    border-radius: 50%;
+    border-width: 1px; 
+    margin-right: 6px;
+    margin-left: 4px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 10px;
+}
+.x{
+    color: red;
+    border-color: red;
+}
+.tendine{
+    margin-top: 25px;   
+}
+.dafare{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.editorial{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(48, 185, 226);
+    border-radius: 12px;
+    font-size: 11px;
+    padding: 4px 6px;
+    background-color: rgb(48, 185, 226);
+    color: white;
+
+}
+.Q1{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(146, 48, 226);
+    border-radius: 12px;
+    font-size: 11px;
+    padding: 4px 6px;
+    background-color: rgb(146, 48, 226);
+    color: white;
+
+}
+.rec{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(48, 226, 187);
+    border-radius: 12px;
+    font-size: 11px;
+    padding: 4px 6px;
+    background-color: rgb(48, 226, 187);
+    color: white;
+
+}
+.mobile{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(209, 98, 8);
+    border-radius: 12px;
+    font-size: 11px;
+    padding: 4px 6px;
+    background-color: rgb(209, 98, 8);
+    color: white;
+
+}
+.web{
+    border-style: solid;
+border-width: 1px;
+border-color: rgb(197, 22, 124);
+border-radius: 12px;
+font-size: 11px;
+padding: 4px 6px;
+background-color: rgb(197, 22, 124);
+color: white;
+
+}
+.sales{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(102, 190, 19);
+    border-radius: 12px;
+    font-size: 11px;
+    padding: 4px 6px;
+    background-color: rgb(102, 190, 19);
+    color: white; 
+}
+#primobottone{
+    background-color:rgb(52, 177, 255); 
+    color: white; 
+    border-radius: 5px; 
+    border-style: none; 
+    padding: 5px 7px; 
+}
+
+.button{
+    background-color:rgb(255, 255, 255); 
+    color: rgb(158, 156, 156); 
+    border-radius: 5px;  
+    padding: 5px 7px; 
+    border-color: rgb(209, 208, 208);
+    border-width: 1px;
+    height: 27px;
+
+}
