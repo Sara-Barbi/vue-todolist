@@ -2,6 +2,7 @@ let app = new Vue ({
  
     el: "#root",
     data: {
+        azione : "",
         arrayToDo :[
             primoTo = {
                 text :" Quarterly newsletter",
@@ -29,15 +30,21 @@ let app = new Vue ({
             },
         
         ],
-        event:{ text: '', todo: ''},
+       
     },
     methods: {
       
         deleteThis: function(index) {
             this.arrayToDo.splice(index,1)
         },
+
+        aggiungi: function(){
+            this.arrayToDo.push(elementoNuovo={
+                text : this.azione,
+                todo: false
+            })
+        }
       
-       
     },
     
 });
