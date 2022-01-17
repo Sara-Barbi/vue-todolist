@@ -32,8 +32,8 @@
             <ul>
                 <li v-for= "elemento in arrayToDo" class="m-3">
                     <span class="spunta" v-if = "elemento.todo==true">&#10003;</span> 
-                    <span class="x" v-else = "elemento.todo==false">&#10007;</span> 
-                    <span>{{elemento.text}}</span>
+                    <span class="x" v-else = "">&#10007;</span> 
+                    <span :class="{'text-decoration-line-through' : elemento.todo }">{{elemento.text}}</span>
                 </li>
 
             </ul>
