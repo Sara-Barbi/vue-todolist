@@ -28,25 +28,16 @@ let app = new Vue ({
                 todo : false ,
             },
         
-        ]
+        ],
+        event:{ text: '', todo: ''},
     },
     methods: {
       
+        deleteThis: function(index) {
+            this.arrayToDo.splice(index,1)
+        },
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        
-        
-        
-        
+       
     },
     
 });
