@@ -30,9 +30,10 @@
                     </div>
                 </div>
             <ul>
-                <li>
-                    <span class="spunta">&#10003;</span> 
-                    <span>Quarterly newsletter </span>
+                <li v-for= "elemento in arrayToDo" class="m-3">
+                    <span class="spunta" v-if = "elemento.todo==true">&#10003;</span> 
+                    <span class="x" v-else = "elemento.todo==false">&#10007;</span> 
+                    <span>{{elemento.text}}</span>
                 </li>
 
             </ul>
