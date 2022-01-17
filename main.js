@@ -31,7 +31,18 @@ let app = new Vue ({
         ]
     },
     methods: {
-        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
         
         
         
