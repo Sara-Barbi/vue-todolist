@@ -106,6 +106,10 @@ hr{
     color: white;
 
 }
+.my_style{
+    color: rgb(225, 79, 198);
+
+}
 .web{
     border-style: solid;
 border-width: 1px;
@@ -115,6 +119,11 @@ font-size: 11px;
 padding: 4px 6px;
 background-color: rgb(197, 22, 124);
 color: white;
+
+}
+.my{
+    height: 30px;
+    vertical-align: center;
 
 }
 .sales{
@@ -127,7 +136,7 @@ color: white;
     background-color: rgb(102, 190, 19);
     color: white; 
 }
-#primobottone{
+.primobottone{
     background-color:rgb(52, 177, 255); 
     color: white; 
     border-radius: 5px; 

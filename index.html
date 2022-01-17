@@ -11,80 +11,32 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div class="title">
-        <img src="img/logo copia.png" alt="">
+<div class="row">
+    <div class="col-12 text-center">
+        <h1 class="my_style">ToDoList !</h1>
     </div>
-    <div class=title>
-        <h1>Toboolist</h1>
-    </div>
-</header>
-<main>
+</div>
+<main id="root">
     <div class=spazio1>    
-        <button id=primobottone>Add Task</button>
-        <button class=button>Add Section</button>
+        <input type="text">
+        <button class="primobottone ">Add Task</button>
     </div>    
         <hr>
     <div class=spazio1>  
-        <div class= tendine>
-                <h3> &blacktriangledown; New Task </h3>
+                <div class="row">
+                    <div class="col-12 justify-content-center d-flex mb-4">
+                        <button class="primobottone my"style="background-color: violet;">&blacktriangledown;</button>
+                        <h3>All Tasks</h3>
+                    </div>
+                </div>
             <ul>
-              <li>
+                <li>
                     <span class="spunta">&#10003;</span> 
-                    <span>Quarterly newsletter </span> 
-                    <span class="editorial">Editorial</span>
-              </li>
+                    <span>Quarterly newsletter </span>
+                </li>
+
             </ul>
-        </div>
-        
-        <div class= tendine>
-            <h3> &blacktriangledown; Today </h3>
-            <ul>
-                <li class="dafare">
-                    <span class="spunta">&#10003;</span> 
-                    <span>Recluiting blog post </span> 
-                    <span class="editorial">Editorial</span>
-                </li>
-                <li class="dafare">  
-                    <span class="spunta">&#10003;</span> 
-                    <span>Mobile app Luaunch </span> 
-                    <span class="Q1">Q1 Goals</span>
-                </li>
-                <li class="dafare"> 
-                    <span class="x">&#10007;</span>
-                    <span> Interview John H. </span> 
-                    <span class="rec">Recluiting</span>
-                </li>
-                <li class="dafare">
-                    <span class="spunta">&#10003;</span>
-                    <span>Summit updates to mobile storefronts </span> 
-                    <span class="mobile">Mobile</span>
-                </li>
-            </ul>
-       <div class= tendine1>
-                  <h3> &blacktriangledown; Upcoming </h3>
-                <ul>
-                    <li class="dafare">
-                        <span class="x">&#10007;</span> 
-                        <span>Schedule meeting with Alex </span> 
-                    </li>
-                    <li class="dafare">  
-                        <span class="spunta">&#10003;</span> 
-                        <span> Homemade refresh </span> 
-                        <span class="web">Website</span>
-                    </li>
-                    <li class="dafare"> 
-                        <span class="spunta">&#10003;</span>
-                        <span> Onboard views sales team members </span> 
-                        <span class="sales">Sales</span>
-                    </li>
-                    <li class="dafare">
-                        <span class="spunta">&#10003;</span>
-                        <span>Review editorial calendar </span>
-                        <span class="editorial">Editorial</span>    
-                    </li>
-                </ul>
-     </div>
+    
     </div>
 
 </main> 
@@ -105,6 +57,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!-- Bootsrap.js -->
-    <script type="text/JavaScript" src="myscript.js"></script>   <!--JavaScript-->
+    <script type="text/JavaScript" src="main.js"></script>   <!--JavaScript-->
 </body>
 </html>
