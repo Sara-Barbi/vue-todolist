@@ -30,23 +30,31 @@ let app = new Vue ({
             },
         
         ],
-       
+        
     },
     methods: {
-      
+        
         deleteThis: function(index) {
             this.arrayToDo.splice(index,1)
         },
-
+        
         aggiungi: function(){
             this.arrayToDo.push(elementoNuovo={
                 text : this.azione,
                 todo: false
             })
+            this.azione = ""
         },
-       
-        
       
+      
+      
+      
+      
+      
+      
+      
+        
+        
     },
     
 });
