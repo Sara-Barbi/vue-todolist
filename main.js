@@ -43,7 +43,9 @@ let app = new Vue ({
                 text : this.azione,
                 todo: false
             })
-        }
+        },
+       
+        
       
     },
     

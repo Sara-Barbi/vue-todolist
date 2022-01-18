@@ -25,15 +25,16 @@
     <div class=spazio1>  
                 <div class="row">
                     <div class="col-12 justify-content-center d-flex mb-4">
-                        <button class="primobottone my" style="background-color: violet;">&blacktriangledown;</button>
-                        <h3>All Tasks</h3>
+                        <select class="primobottone text-center" style="background-color: violet;"  >
+                            <option value="All" >ALL tasks </option>
+                        </select>
                     </div>
                 </div>
             <ul>
-                <li v-for= "elemento in arrayToDo" class="m-3">
+                <li v-for= "elemento in arrayToDo" class="m-3" :class="cambio">
                     <span class="spunta" v-if = "elemento.todo==true" @click= "(elemento.todo) = false" >&#10003;</span> 
                     <span class="x" v-if = "elemento.todo==false" @click = "(elemento.todo) = true">&#10007;</span> 
-                    <span :class="{'text-decoration-line-through' : elemento.todo }">{{elemento.text}}</span> <button @click = "deleteThis">x</button>
+                    <span :class="{'text-decoration-line-through' : elemento.todo }">{{elemento.text}}</span> <button @click = "deleteThis(index)">x</button>
                 </li>
 
             </ul>
