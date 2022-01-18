@@ -31,10 +31,11 @@
                     </div>
                 </div>
             <ul>
-                <li v-for= "elemento in arrayToDo" class="m-3" :class="cambio">
+                <li v-for= "(elemento,index) in arrayToDo" class="m-3" :class="cambio">
                     <span class="spunta" v-if = "elemento.todo==true" @click= "(elemento.todo) = false" >&#10003;</span> 
                     <span class="x" v-if = "elemento.todo==false" @click = "(elemento.todo) = true">&#10007;</span> 
-                    <span :class="{'text-decoration-line-through' : elemento.todo }">{{elemento.text}}</span> <button @click = "deleteThis(index)">x</button>
+                    <span :class="{'text-decoration-line-through' : elemento.todo }">{{elemento.text}}</span>
+                    <button @click = "deleteThis(index)">x</button>
                 </li>
 
             </ul>
